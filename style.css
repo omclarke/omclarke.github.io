@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+  }
+  
+  .bg {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	}
+
+	@media (min-width: 768px) {
+		.profile {
+		  display: flex;
+		  align-items: center;
+		}
+		.bitmoji {
+		  margin-right: 20px;
+		  float:left;
+		}
+		body {
+			margin: 1in;
+			}
+	  }
+  /*.hero {
+	min-height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: url(.../images/img.jpg) fixed center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	color: #fff;
+	padding: 0 8%;
+  }*/
+  
+  nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+  }
+  
+  .logo {
+	width: 160px;
+  }
+  
+  nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	margin: 10px 30px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  body {
+	background: url("images/bg_animated.gif") no-repeat center center fixed;
+	z-index: -1;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+#sidebar.hidden {
+    left: -300px;
+}
+/*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+.hero{
+	min-height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: url(.../images/img.jpg) fixed center;
+	/*background-position: center;*/
+	/*background-repeat: no-repeat; 
+	background-size: 70;
+	color: #fff;
+	padding: 0 8%;
+}
+.bg {
+    background: url("path/to/bg_animated.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	}
+
+nav{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.logo{
+	width: 160px;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin:10px 30px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+/* Set the background of the webpage to the animated GIF */
+/*body {
+    background: url("images/bg_animated.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+
+	/*background-image: linear-gradient(rbga(49,0,255,0.8), rbga(132,5,29,0.8) url(.../images/bg.gif)
+	background-size: cover;
+	background-position: center;*/
+	
